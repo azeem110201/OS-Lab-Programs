@@ -28,7 +28,7 @@ int main()
     else
     {
         printf("\nPARENT PR:Process Id is %d \t Parent Process Id is %d", getpid(), getppid());
-        printf("Parent Pr:Value returned by fork function in %d", rval);
+        printf("Parent Pr:Value returned by fork function in %d", pid);
         system("ps -l");
         rval = wait(0);
         system("ps -l");
